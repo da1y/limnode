@@ -1,0 +1,17 @@
+{
+  "name": "node-rate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2-runtime start ./index.js --name node_app",
+    "stop": "pm2-runtime stop node_app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ioredis": "^4.27.1"
+  }
+}
